@@ -3,6 +3,8 @@
 This repository contains code for evaluating model performance on the **UniCircuitBench** benchmark. It includes scripts for testing different model types and a utility script to compute accuracy metrics for the generated results.
 
 ## Directory Structure
+
+```
 benchmark/
 ├── internvl-test.py # Code to test INTERV-L models
 ├── qwen3-vl-test.py # Code to test Qwen-3 VL models
@@ -10,7 +12,7 @@ benchmark/
 ├── test_understanding.py # Code for understanding tasks evaluation
 accuracy.py # Script to compute accuracy for test outputs
 README.md # This file
-
+```
 ---
 
 ## Running Model Tests
